@@ -19,7 +19,7 @@ const Destination = () => {
                 </h2>
                 <div className="flex flex-col lg:flex-row justify-between items-center gap-y-20 gap-8 mt-10 py-16">
                     <div className="max-w-[539px] flex items-center justify-center w-full ">
-                        <img src={activeImage?.images.png} alt={activeImage?.name} className="w-[70%] sm:w-auto" />
+                        <img src={activeImage?.images.webp || activeImage?.images.png } alt={activeImage?.name} className="w-[70%] sm:w-auto" />
                     </div>
  
                     <DestinationTabs active={activeTab} setActive={setActiveTab} destinations={destinations}/>

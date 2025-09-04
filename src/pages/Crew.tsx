@@ -21,7 +21,7 @@ const Crew = () => {
 
                     <div className="max-w-[539px] flex items-center justify-center w-full relative">
                         <div className="absolute inset-x-0 -bottom-4 bg-black blur-[15px] h-10"></div>
-                        <img src={activeImage?.images.png} alt={activeImage?.name} className="w-[70%] sm:w-auto" />
+                        <img src={activeImage?.images.webp || activeImage?.images.png} alt={activeImage?.name} className="w-[70%] sm:w-auto" />
                     </div>
                     
  
