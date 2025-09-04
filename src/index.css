@@ -115,9 +115,9 @@
   --home-tablet: url("assets/home/background-home-tablet.jpg");
   --home-mobile: url("assets/home/background-home-mobile.jpg");
 
-  --destination-mobile: url("assets/destination/background-destination-mobile.jpg");
-  --destination-tablet: url("assets/destination/background-destination-tablet.jpg");
-  --destination-desktop: url("assets/destination/background-destination-desktop.jpg");
+  --destination-mobile: url("/destination/background-destination-mobile.jpg");
+  --destination-tablet: url("/destination/background-destination-tablet.jpg");
+  --destination-desktop: url("/destination/background-destination-desktop.jpg");
   
   --crew-desktop: url("assets/crew/background-crew-desktop.jpg");
   --crew-tablet: url("assets/crew/background-crew-tablet.jpg");
