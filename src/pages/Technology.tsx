@@ -19,7 +19,7 @@ const Technology = () => {
                 <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-8 mt-10">
                     <TechnologyTabs active={activeTab} setActive={setActiveTab} technology={technology}/>
                 
-                    <div className="w-full bg-green-500">
+                    <div className="w-full ">
                         <img src={activeImg?.images.portrait} alt={activeImg?.name} className="hidden lg:block object-cover w-full h-full" />
                         <img src={activeImg?.images.landscape} alt={activeImg?.name} className="lg:hidden object-contain w-full" />
                     </div>
