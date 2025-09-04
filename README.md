@@ -37,9 +37,8 @@ Users should be able to:
 
 | 🖥️ Desktop View                  | 📱 Mobile View                 |
 | -------------------------------- | ------------------------------ |
-| ![Desktop](./src/assets/design/space-desktop.png) | ![Mobile](./src/assets/design/space-mobile.png) |
-| ![Desktop](./src/assets/design/space-tablet.png) |  |
-
+| ![Desktop](./src/assets/designs/space-desktop.png) | ![Mobile](./src/assets/designs/space-mobile.png) |
+| ![Desktop](./src/assets/designs/space-tablet.png) |  |
 
 
 ### Links
